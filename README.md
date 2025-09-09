@@ -2,4 +2,4 @@
 
 My UPPMAX doc talk
 
-- [Presentation (`.qml`)](presentation.qml)
+- [Presentation (`.qmd`)](presentation.qmd)
