@@ -15,130 +15,126 @@ number-offset: -0
 
 ![CC0](CC0.png) Richèl 'Rea-shell' Bilderbeek
 
-[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
-[uppmax_kickoff_20250910_doc_talk](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
+[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk) [uppmax_kickoff_20250910_doc_talk](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
 
 # What are the UPPMAX docs?
 
-- **What are the UPPMAX docs?**
-- Why would you care?
-- How to contribute?
+-   **What are the UPPMAX docs?**
+-   Why would you care?
+-   How to contribute?
 
-## The UPPMAX docs 1/
+## The UPPMAX docs 1/9
 
 ![](uppmax_docs_full.png)
 
-## The UPPMAX docs 2/
+## The UPPMAX docs 2/9
 
 ![](first_page_annotated.png)
 
-## The UPPMAX docs 3/
+## The UPPMAX docs 3/9
 
 ![](pelle_compressed_annotated.png)
 
-## The UPPMAX docs 4/
+## The UPPMAX docs 4/9
 
 ![](dropdown_compressed.png)
 
-## The UPPMAX docs 5/
+## The UPPMAX docs 5/9
 
 ![](mermaid.png)
 
-## The UPPMAX docs 6/
+## The UPPMAX docs 6/9
 
 ![](courses.png)
 
-## The UPPMAX docs 7/
+## The UPPMAX docs 7/9
 
 ![](contributors.png)
 
-## The UPPMAX docs 8/
+## The UPPMAX docs 8/9
 
-Parameter                         |Value <!-- 2025-09-08 13:01 -->
-----------------------------------|-----
-Number of lines                   |43623
-Number of pages                   |416
-Number of pages with (search) tags|194
-Number of dropdown boxes          |775
-Number of images                  |435
+| Parameter                          | Value <!-- 2025-09-08 13:01 --> |
+|------------------------------------|---------------------------------|
+| Number of lines                    | 43623                           |
+| Number of pages                    | 416                             |
+| Number of pages with (search) tags | 194                             |
+| Number of dropdown boxes           | 775                             |
+| Number of images                   | 435                             |
 
-## The UPPMAX docs 9/
+## The UPPMAX docs 9/9
 
-Parameter                         |Value <!-- 2025-09-08 13:01 -->
-----------------------------------|-----
-Number of internal links          |1622
-Number of Mermaid graphs          |52
-Number of links to YouTube videos |110
-Number of commits                 |3349
-Number of versions                |9
+| Parameter                         | Value <!-- 2025-09-08 13:01 --> |
+|-----------------------------------|---------------------------------|
+| Number of internal links          | 1622                            |
+| Number of Mermaid graphs          | 52                              |
+| Number of links to YouTube videos | 110                             |
+| Number of commits                 | 3349                            |
+| Number of versions                | 9                               |
 
 # Why would you care?
 
-- What are the UPPMAX docs?
-- **Why would you care?**
-- How to contribute?
+-   What are the UPPMAX docs?
+-   **Why would you care?**
+-   How to contribute?
 
 ## Why would you care?
 
-- To (help show) we care about our **users**
-- To (help show) we care about **quality**
-- To (help show) yourself a good **team player**
+-   To (help show) we care about our **users**
+-   To (help show) we care about **quality**
+-   To (help show) yourself a good **team player**
 
-## How do we show we care about our users? 1/
+## How do we show we care about our users? 1/3
 
-We are the only HPC center is Sweden
-that has:
+We are the only HPC center is Sweden that has:
 
-- :salt: **no broken links** 
-- :salt: **no spelling errors** 
+-   :salt: **no broken links**
+-   :salt: **no spelling errors**
 
 ![](badges.png)
 
-## How do we show we care about our users? 2/
+## How do we show we care about our users? 2/3
 
 We are the only HPC center is Sweden where:
 
-- **users can create issues** for us
-- **users can edit pages** easily
+-   **users can create issues** for us
+-   **users can edit pages** easily
 
 ![](pelle_compressed_annotated_zoom_on_edit.png)
 
-## How do we show we care about our users? 3/
+## How do we show we care about our users? 3/3
 
 We are the only HPC center is Sweden that:
 
-- provides an **AI agent**
-- allows **anonymous feedback**
-  
+-   provides an **AI agent**
+-   allows **anonymous feedback**
+
 ![](first_page_annotated_zoom_anonymous_feedback.png)
 
-## How do we show we care about quality? 1/
+## How do we show we care about quality? 1/3
 
 **Dog fooding**: the pages are used:
 
-- as teaching material
-- to solve tickets
+-   as teaching material
+-   to solve tickets
 
 ![](rt_ticket_1.png)
 
-## How do we show we care about quality? 2/
+## How do we show we care about quality? 2/3
 
-**Every commit is checked**: a Continuous Integration service
-allows us to ensure quality:
+**Every commit is checked**: a Continuous Integration service allows us to ensure quality:
 
-- Link checker
-- Spell checker
-- Bash linter
-- Markdown linter
+-   Link checker
+-   Spell checker
+-   Bash linter
+-   Markdown linter
 
 ![](badges.png)
 
-## How do we show we care about quality? 3/
+## How do we show we care about quality? 3/3
 
-**No lame excuses**: Because we can access all plain-text pages,
-we can use all the power tools, e.g. `grep`, `sed`, `awk`.
+**No lame excuses**: Because we can access all plain-text pages, we can use all the power tools, e.g. `grep`, `sed`, `awk`.
 
-```bash
+``` bash
 echo "Number of dropdown boxes"
 ./scripts/count_n_dropdown_boxes.sh
 
@@ -148,29 +144,29 @@ echo "Number of images"
 
 # How to contribute?
 
-- What are the UPPMAX docs?
-- Why would you care?
-- **How to contribute?**
+-   What are the UPPMAX docs?
+-   Why would you care?
+-   **How to contribute?**
 
-## How to contribute? 1/
+## How to contribute? 1/4
 
 Sharing your wisdom
 
 ![](commit_wisdom.png)
 
-## How to contribute? 2/
+## How to contribute? 2/4
 
 Report mistakes as an issue
 
 ![](issue_request_fix.png)
 
-## How to contribute? 3/
+## How to contribute? 3/4
 
 Fix content
 
 ![](helpful_fix.png)
 
-## How to contribute? 4/
+## How to contribute? 4/4
 
 Create issues on behalf of users
 
@@ -178,13 +174,13 @@ Create issues on behalf of users
 
 # Technology stack
 
-Parameter                     |Value
-------------------------------|--------------
-Version control               |git
-Code hosting                  |GitHub
-Continuous integration service|GitHub Actions
-Markup language               |Markdown
-Static site generator         |MkDocs
+| Parameter                      | Value          |
+|--------------------------------|----------------|
+| Version control                | git            |
+| Code hosting                   | GitHub         |
+| Continuous integration service | GitHub Actions |
+| Markup language                | Markdown       |
+| Static site generator          | MkDocs         |
 
 # Do we do a good job?
 
@@ -196,17 +192,16 @@ We think we do a good job:
 
 -   We ask in person
 -   We hear this in courses
--   We read this in anonymous feedback,
-    such as our (public!) course evaluations
+-   We read this in anonymous feedback, such as our (public!) course evaluations
 
 # Conclusion
 
 We are the Swedish HPC center that seems to ...
 
-- care most about its **users**
-- have the highest **quality** standards
-- have the best **team players**
-- do a **good job**
+-   care most about its **users**
+-   have the highest **quality** standards
+-   have the best **team players**
+-   do a **good job**
 
 # Questions?
 
@@ -216,6 +211,4 @@ Never hesitate to chat about documentation with me :-)
 
 `richel.bilderbeek@icm.uu.se`
 
-[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
-[uppmax_kickoff_20250910_doc_talk](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
-
+[https://github.com/richelbilderbeek/](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk) [uppmax_kickoff_20250910_doc_talk](https://github.com/richelbilderbeek/uppmax_kickoff_20250910_doc_talk)
